@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ຜົນງານ — ກິດ ດີໄຊ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;500;600;700;800;900&family=Noto+Serif+Lao:wght@400;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">ກິດ ດີໄຊ</a>
+  <button class="nav-toggle" id="navToggle" aria-label="toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">ໜ້າຫຼັກ</a>
+    <a href="portfolio.html" class="active">ຜົນງານ</a>
+    <a href="contact.html">ຕິດຕໍ່</a>
+    <a href="contact.html" class="nav-cta">ຮັບງານດ່ວນ</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <p class="eyebrow">Portfolio</p>
+  <h1 class="page-title">ຜົນງານ<em>ທັງໝົດ</em></h1>
+  <p class="page-sub">ຄັດເລືອກມາຈາກໂປຣເຈັກ 120+ ຊິ້ນ ໃນຊ່ວງ 7 ປີທີ່ຜ່ານມາ</p>
+</div>
+
+<!-- FILTER TABS -->
+<div class="filter-bar">
+  <button class="filter-btn active" data-filter="all">ທັງໝົດ</button>
+  <button class="filter-btn" data-filter="brand">ອັດຕະລັກແບນ</button>
+  <button class="filter-btn" data-filter="social">ໂຊຊຽວ ມີເດຍ</button>
+  <button class="filter-btn" data-filter="print">ສິ່ງພິມ</button>
+  <button class="filter-btn" data-filter="packaging">ບັນຈຸພັນ</button>
+</div>
+
+<!-- PORTFOLIO GRID -->
+<div class="portfolio-grid" id="portfolioGrid">
+
+  <!-- ວິທີ upload ຮູບ: ໃຫ້ໃສ່ໄຟລ໌ຮູບໄວ້ໃນໂຟລເດີ images/ ແລ້ວປ່ຽນ src ຂ້າງລຸ່ມ -->
+  <!-- ຖ້າຍັງບໍ່ມີຮູບ ຈະສະແດງ placeholder ສີ -->
+
+  <div class="work-card" data-cat="brand">
+    <div class="work-img" style="background:linear-gradient(135deg,#1a0a2e,#4a2c8a)">
+		<img src="images/bree.jpeg" alt="Aura Skincare Branding"> 
+      <div class="work-placeholder"></div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ອັດຕະລັກແບນ</span>
+      <h3 class="work-title">Beer LAO</h3>
+      <p class="work-desc">Visual Identity System ຄົບຊຸດ — Logo, Color, Typography ແລະ Brand Guide</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="print">
+    <div class="work-img" style="background:linear-gradient(135deg,#0a1628,#1e3a5f)">
+      <img src="images/cat.PNG" alt="Annual Report"> 
+      <div class="work-placeholder"></div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ສິ່ງພິມ</span>
+      <h3 class="work-title">ບໍລິສັດມ້າສົ້ມ 2024</h3>
+      <p class="work-desc">ຮູບເເມວໂງ່ທີ່ນັ່ງເເນມໜ້າຄົນໂງ່</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="social">
+    <div class="work-img" style="background:linear-gradient(135deg,#1a1a0a,#4a3820)">
+      <!-- <img src="images/project-03.jpg" alt="Cafe Noir Campaign"> -->
+      <div class="work-placeholder">✦</div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ໂຊຊຽວ ມີເດຍ</span>
+      <h3 class="work-title">Café Noir — Campaign Kit</h3>
+      <p class="work-desc">ຊຸດ Social Media 30 ຊິ້ນ ສຳລັບ Campaign ຄົບຮອບ 5 ປີ</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="packaging">
+    <div class="work-img" style="background:linear-gradient(135deg,#0a1a0a,#1e4a2a)">
+      <!-- <img src="images/project-04.jpg" alt="Herbal Co Packaging"> -->
+      <div class="work-placeholder">◈</div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ບັນຈຸພັນ</span>
+      <h3 class="work-title">Herbal Co. Packaging</h3>
+      <p class="work-desc">ອອກແບບຂວດ ແລະ ກ່ອງ 6 ຮູບແບບ ສຳລັບສາຍຜະລິດຕະພັນຢາສະໝຸນໄພ</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="brand">
+    <div class="work-img" style="background:linear-gradient(135deg,#1a0a0a,#4a1e1e)">
+      <!-- <img src="images/project-05.jpg" alt="Fintech Branding"> -->
+      <div class="work-placeholder">⬡</div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ອັດຕະລັກແບນ</span>
+      <h3 class="work-title">Fintech Startup Brand</h3>
+      <p class="work-desc">Logo ແລະ UI Design System ສຳລັບ App ການເງິນຮຸ່ນໃໝ່</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="print">
+    <div class="work-img" style="background:linear-gradient(135deg,#0a1a1a,#1e3a3a)">
+      <!-- <img src="images/project-06.jpg" alt="Book Cover"> -->
+      <div class="work-placeholder">◉</div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ສິ່ງພິມ</span>
+      <h3 class="work-title">Book Cover Series</h3>
+      <p class="work-desc">ປົກໜັງສື 5 ເຫຼັ້ມ ສຳລັບສຳນັກພິມວັນນະຄະດີ</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="social">
+    <div class="work-img" style="background:linear-gradient(135deg,#1a0a1a,#3a1a4a)">
+      <!-- <img src="images/project-07.jpg" alt="Restaurant Social"> -->
+      <div class="work-placeholder">◐</div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ໂຊຊຽວ ມີເດຍ</span>
+      <h3 class="work-title">Sabaai Restaurant</h3>
+      <p class="work-desc">Monthly Content Pack 20 ຊິ້ນ/ເດືອນ ສຳລັບຮ້ານອາຫານລາວ</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="packaging">
+    <div class="work-img" style="background:linear-gradient(135deg,#1a1a0a,#3a3a10)">
+      <!-- <img src="images/project-08.jpg" alt="Tea Packaging"> -->
+      <div class="work-placeholder">✿</div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ບັນຈຸພັນ</span>
+      <h3 class="work-title">Lao Tea Collection</h3>
+      <p class="work-desc">ຊຸດ Packaging ຊາ 8 ຊະນິດ ທີ່ໄດ້ຮັບແຮງບັນດານໃຈຈາກລາຍ textile ລາວ</p>
+    </div>
+  </div>
+
+  <div class="work-card" data-cat="brand">
+    <div class="work-img" style="background:linear-gradient(135deg,#0a0a1a,#1a2a4a)">
+      <!-- <img src="images/project-09.jpg" alt="Hotel Branding"> -->
+      <div class="work-placeholder">◇</div>
+    </div>
+    <div class="work-info">
+      <span class="work-tag">ອັດຕະລັກແບນ</span>
+      <h3 class="work-title">Mekong Boutique Hotel</h3>
+      <p class="work-desc">Brand Identity ຄົບຊຸດ ລວມທັງ Signage, Menu ແລະ Amenity Kit</p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- CTA -->
+<section class="cta-banner fade-up">
+  <div class="cta-inner">
+    <h2 class="cta-title">ສົນໃຈຮ່ວມງານ<em>ກັນ?</em></h2>
+    <p class="cta-sub">ເລົ່າໂປຣເຈັກໃຫ້ຟັງ ເຮົາຈະຕອບກັບພ້ອມ Quote ໄວ</p>
+    <a href="contact.html" class="btn-primary">ຕິດຕໍ່ດຽວນີ້</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">ກິດ ດີໄຊ</div>
+  <p class="footer-text">© 2024 Kit Creative Studio — ສະຫງວນລິຂະສິດ</p>
+  <div class="footer-nav">
+    <a href="index.html">ໜ້າຫຼັກ</a>
+    <a href="portfolio.html">ຜົນງານ</a>
+    <a href="contact.html">ຕິດຕໍ່</a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ຕິດຕໍ່ — ກິດ ດີໄຊ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;500;600;700;800;900&family=Noto+Serif+Lao:wght@400;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">ກິດ ດີໄຊ</a>
+  <button class="nav-toggle" id="navToggle" aria-label="toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">ໜ້າຫຼັກ</a>
+    <a href="portfolio.html">ຜົນງານ</a>
+    <a href="contact.html" class="active">ຕິດຕໍ່</a>
+    <a href="contact.html" class="nav-cta">ຮັບງານດ່ວນ</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <p class="eyebrow">ຕິດຕໍ່</p>
+  <h1 class="page-title">ພ້ອມ<em>ຮັບງານ</em><br>ຂອງທ່ານແລ້ວ</h1>
+  <p class="page-sub">ບອກລ້ຽວໂປຣເຈັກໃຫ້ຟັງ ເຮົາຈະຕອບກັບພ້ອມ Quote ພາຍໃນ 24 ຊົ່ວໂມງ</p>
+</div>
+
+<!-- CONTACT BODY -->
+<section class="contact-body">
+  <!-- LEFT: INFO -->
+  <div class="contact-info-col fade-up">
+
+    <div class="contact-card">
+      <div class="cc-icon">✉</div>
+      <div>
+        <div class="cc-label">Email</div>
+        <div class="cc-value">kit.design@gmail.com</div>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="cc-icon">📱</div>
+      <div>
+        <div class="cc-label">WhatsApp / ໂທ</div>
+        <div class="cc-value">+856 20 xxxx xxxx</div>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="cc-icon">📷</div>
+      <div>
+        <div class="cc-label">Instagram</div>
+        <div class="cc-value">@kit.creative</div>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="cc-icon">🕐</div>
+      <div>
+        <div class="cc-label">ເວລາທຳການ</div>
+        <div class="cc-value">ຈັນ–ສຸກ  09:00–18:00</div>
+      </div>
+    </div>
+
+    <div class="pricing-quick fade-up">
+      <h3 class="pq-title">ລາຄາເລີ່ມຕົ້ນ</h3>
+      <div class="pq-row">
+        <span>ງານຊິ້ນດຽວ (Starter)</span>
+        <span class="pq-price">3,500 ກີບ</span>
+      </div>
+      <div class="pq-row">
+        <span>Brand Identity (ຄົບຊຸດ)</span>
+        <span class="pq-price">18,000 ກີບ</span>
+      </div>
+      <div class="pq-row">
+        <span>Monthly Retainer</span>
+        <span class="pq-price">9,500 ກີບ/ດ</span>
+      </div>
+      <a href="#form" class="btn-ghost" style="margin-top:1.5rem;display:inline-flex">ຂໍ Quote ຟຣີ</a>
+    </div>
+
+  </div>
+
+  <!-- RIGHT: FORM -->
+  <div class="contact-form-col fade-up" style="transition-delay:.15s" id="form">
+    <h2 class="form-heading">ສົ່ງລາຍລະອຽດ<em>ງານ</em></h2>
+
+    <div class="form-grid">
+      <div class="form-group">
+        <label>ຊື່ / ບໍລິສັດ</label>
+        <input type="text" placeholder="ທ່ານ / ແບນຂອງທ່ານ"/>
+      </div>
+      <div class="form-group">
+        <label>Email / WhatsApp</label>
+        <input type="text" placeholder="ຕິດຕໍ່ກັບ"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>ປະເພດງານ</label>
+      <select>
+        <option value="" disabled selected>ເລືອກປະເພດງານ</option>
+        <option>ອັດຕະລັກແບນ (Brand Identity)</option>
+        <option>ໂຊຊຽວ ມີເດຍ</option>
+        <option>ອອກແບບບັນຈຸພັນ</option>
+        <option>ສິ່ງພິມ / Poster</option>
+        <option>ຮູບປະກອບ (Illustration)</option>
+        <option>Monthly Retainer</option>
+        <option>ອື່ນໆ</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>ງົບປະມານ</label>
+      <select>
+        <option value="" disabled selected>ງົບທີ່ວາງແຜນໄວ້</option>
+        <option>ບໍ່ເກີນ 5,000 ກີບ</option>
+        <option>5,000 – 15,000 ກີບ</option>
+        <option>15,000 – 30,000 ກີບ</option>
+        <option>30,000 ກີບຂຶ້ນໄປ</option>
+        <option>ຍັງບໍ່ແນ່ໃຈ / ຂໍ Quote ກ່ອນ</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>ໄລຍະເວລາ</label>
+      <select>
+        <option value="" disabled selected>ຕ້ອງການໄວ ຫຼື ຍາວ?</option>
+        <option>ດ່ວນ (ພາຍໃນ 3 ວັນ)</option>
+        <option>ປົກກະຕິ (1–2 ອາທິດ)</option>
+        <option>ບໍ່ຮີບ (1 ເດືອນ+)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>ລາຍລະອຽດໂປຣເຈັກ</label>
+      <textarea rows="5" placeholder="ເລົ່າໃຫ້ຟັງກ່ຽວກັບແບນ, ເປົ້າໝາຍ ຫຼື ສິ່ງທີ່ຕ້ອງການ..."></textarea>
+    </div>
+
+    <button class="submit-btn" type="button" id="submitBtn">ສົ່ງລາຍລະອຽດງານ →</button>
+
+    <div class="form-success" id="formSuccess">
+      <span>✓</span> ສົ່ງແລ້ວ! ຈະຕິດຕໍ່ກັບພາຍໃນ 24 ຊົ່ວໂມງ
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-dark">
+  <div class="section-header fade-up">
+    <div>
+      <p class="section-tag">FAQ</p>
+      <h2 class="section-title">ຄຳຖາມ<em>ທີ່ຖາມເລື້ອຍ</em></h2>
+    </div>
+  </div>
+  <div class="faq-list fade-up">
+    <div class="faq-item">
+      <button class="faq-q">ຊຳລະເງິນແນວໃດ?</button>
+      <div class="faq-a">ມັດຈຳ 50% ກ່ອນເລີ່ມງານ ສ່ວນທີ່ເຫຼືອຊຳລະເມື່ອສົ່ງງານສຳເລັດ ຮັບໂອນ BML / LDB / ເງິນສົດ</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">ຖ້າໄດ້ຮັບງານແລ້ວ revision ໄດ້ຫຼາຍຮອບ?</button>
+      <div class="faq-a">ຂຶ້ນກັບແພັກເກດ: Starter = 2 ຮອບ, Brand = 3 ຮອບ, Monthly = Unlimited minor revisions</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">ໃຊ້ເວລານານສໍ່ໃດ?</button>
+      <div class="faq-a">ງານຊິ້ນດຽວ 3–5 ວັນ, Brand Identity 2–3 ອາທິດ, ໂປຣເຈັກໃຫຍ່ 3–4 ອາທິດ ຂຶ້ນກັບຄວາມສັບຊ້ອນ</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">ສົ່ງໄຟລ໌ format ໃດ?</button>
+      <div class="faq-a">ສົ່ງຄົບທຸກ format ທີ່ຕ້ອງການ: AI (Illustrator), PDF, PNG ຄວາມລະອຽດສູງ, SVG ສຳລັບ web</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">ຕິດຕໍ່ຜ່ານຊ່ອງທາງໃດໄດ້ແດ່?</button>
+      <div class="faq-a">Email, WhatsApp ຫຼື Instagram DM ໄດ້ທັງໝົດ ຕອບໄວທີ່ສຸດຜ່ານ WhatsApp</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">ກິດ ດີໄຊ</div>
+  <p class="footer-text">© 2024 Kit Creative Studio — ສະຫງວນລິຂະສິດ</p>
+  <div class="footer-nav">
+    <a href="index.html">ໜ້າຫຼັກ</a>
+    <a href="portfolio.html">ຜົນງານ</a>
+    <a href="contact.html">ຕິດຕໍ່</a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
